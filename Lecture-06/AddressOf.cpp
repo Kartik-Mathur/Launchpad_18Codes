@@ -18,7 +18,9 @@ int main(){
 	cout<<(void *)xch<<endl;
 	xch+=1;
 	cout<<(void *)xch<<endl;
-	
+
+
+	// Never store another data type pointer in other data type pointer 
 	int *xptr=(int *)&ch;
 	cout<<xptr<<endl;
 	cout<<xptr+1<<endl;
