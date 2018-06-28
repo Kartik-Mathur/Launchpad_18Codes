@@ -20,7 +20,7 @@ void Subsequences(char *input,int i,char* output,int j){
 
 
 int main(){
-	char a[]="abc";
+	char a[]="AAA";
 	char output[100];
 
 	Subsequences(a,0,output,0);
