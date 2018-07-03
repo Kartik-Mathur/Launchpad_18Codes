@@ -16,7 +16,7 @@ int main(){
 		cout<<v[i]<<" ";
 	}
 	cout<<endl;
-	sort(v.begin(),v.end());
+	// sort(v.begin(),v.end());
 	v.pop_back();
 	v.pop_back();
 

@@ -85,7 +85,9 @@ int main(){
 	t1=clock();
 	MergeSort(a,0,n-1);
 	t1=clock()-t1;
-	
+	for(int i=0;i<n;i++){
+		a[i]=n-i;
+	}
 	t2=clock();
 	BubbleSort(a,n);
 	t2=clock()-t2;
